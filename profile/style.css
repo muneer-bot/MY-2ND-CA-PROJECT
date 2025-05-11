@@ -1,0 +1,168 @@
+h1{
+    color:white;
+    text-align: center;
+    background-color:#FFFDD0;
+    font-size: 50px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border-width: 10px;
+    padding: 30px;
+    
+
+    
+}
+nav{
+   background-color:#8A2BE2; 
+   color: black;
+   text-align: right;
+   margin-top: 0px;
+   margin-bottom: 10px;
+   padding: 15px;
+   font: 40px;
+   border-radius: 20px;
+}
+nav a{
+    color:#FFD580;
+    text-decoration: wavy;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 25px;
+}
+.introductory{
+    text-align: left;
+    padding: 20px 20px;
+    margin-top: 0;
+    
+}
+
+.intro-section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+    margin-top: 0;
+  }
+  .skills-section h2{
+    text-align: left;
+
+}
+  
+  .introsection {
+    max-width: 90%;       
+    margin: 40px auto 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .introsection_text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .skillssection {
+    max-width: 600px;
+    margin: 0 auto 40px 40px; 
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.Myskillslist {
+
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.skills-list li {
+    margin-bottom: 10px;
+}
+body{
+    background-color: darkgrey;
+    margin: 0;
+}
+
+.profile_img {
+    border-radius: 30px;
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.project-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.project-card > img {
+    width: 400px;
+
+}
+.project-card{
+    text-align: center;
+}
+.projectssection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+.contact-us{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    font-size: 50px;
+    margin: 0   ;
+}
+.contact-info{
+    font-size: 30px;
+}
+
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #8A2BE2;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #6a1bbd;
+}
